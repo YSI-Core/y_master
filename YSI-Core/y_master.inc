@@ -160,7 +160,7 @@ Natives:
 	#define _INC_y_master
 	
 	#if defined YSI_TESTS
-		#include "..\YSI-Core\y_testing"
+		#include "..\YSI_Core\y_testing"
 		// Get the new master.
 		#define MASTER 8
 		#include "y_master"

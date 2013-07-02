@@ -117,12 +117,12 @@ Natives:
 // These parts should only be defined once ever.  This code is not dependent on
 // the current MASTER value, it's all generic.
 
-#include "..\YSI-Internal\y_version"
+#include "..\YSI_Internal\y_version"
 #include "y_debug"
-#include "..\YSI-Coding\y_hooks"
-#include "..\YSI-Internal\y_shortfunc"
+#include "..\YSI_Coding\y_hooks"
+#include "..\YSI_Internal\y_shortfunc"
 
-#include "..\YSI-Internal\y_natives"
+#include "..\YSI_Internal\y_natives"
 
 #define _YSIM_COMPARE -1
 
