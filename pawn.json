@@ -1,0 +1,9 @@
+{
+	"user": "YSI-Core",
+	"repo": "y_master",
+	"entry": "test.pwn",
+	"output": "test.amx",
+	"dependencies": [
+	]
+}
+
