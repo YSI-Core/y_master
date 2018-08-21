@@ -92,8 +92,8 @@ Optional plugins:
 #define _Y_MASTER_INCLUDED
 
 #if !defined _INC_y_master
-	#include "..\..\YSI_Core\y_utils"
-	#include "..\..\YSI_Coding\y_hooks"
+	#include <YSI-Core\y_utils>
+	#include <YSI-Coding\y_hooks>
 	
 	CHAIN_HOOK(Master)
 	#undef CHAIN_ORDER
