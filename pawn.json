@@ -8,7 +8,8 @@
 		"YSI-Coding/y_hooks"
 	],
 	"dev_dependencies": [
-		"YSI-Core/y_testing"
+		"YSI-Core/y_testing",
+		"sampctl/samp-stdlib"
 	],
 	"runtime": {
 		"version": "0.3.7",
