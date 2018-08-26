@@ -9,45 +9,1695 @@
 	],
 	"dev_dependencies": [
 		"YSI-Core/y_testing",
-		"sampctl/samp-stdlib"
+		"sampctl/samp-stdlib",
+		"YSI-Players/y_groups"
+	],
+	"builds": [
+		{
+			"name": "debug_0_2_0_0",
+			"args": [
+				"-d2",
+				"-O0",
+				"-\\+",
+				"GTYPE=0",
+				"_DEBUG=1",
+				"YSI_NO_MASTER=1"
+			]
+		},
+		{
+			"name": "debug_0_2_0_1",
+			"args": [
+				"-d2",
+				"-O0",
+				"-\\+",
+				"GTYPE=0",
+				"_DEBUG=1",
+				"YSI_IS_SERVER=1"
+			]
+		},
+		{
+			"name": "debug_0_2_0_2",
+			"args": [
+				"-d2",
+				"-O0",
+				"-\\+",
+				"GTYPE=0",
+				"_DEBUG=1",
+				"YSI_IS_CLOUD=1"
+			]
+		},
+		{
+			"name": "debug_0_2_0_3",
+			"args": [
+				"-d2",
+				"-O0",
+				"-\\+",
+				"GTYPE=0",
+				"_DEBUG=1",
+				"YSI_IS_CLIENT=1"
+			]
+		},
+		{
+			"name": "debug_0_2_1_0",
+			"args": [
+				"-d2",
+				"-O0",
+				"-\\+",
+				"GTYPE=1",
+				"_DEBUG=1",
+				"YSI_NO_MASTER=1"
+			]
+		},
+		{
+			"name": "debug_0_2_1_1",
+			"args": [
+				"-d2",
+				"-O0",
+				"-\\+",
+				"GTYPE=1",
+				"_DEBUG=1",
+				"YSI_IS_SERVER=1"
+			]
+		},
+		{
+			"name": "debug_0_2_1_2",
+			"args": [
+				"-d2",
+				"-O0",
+				"-\\+",
+				"GTYPE=1",
+				"_DEBUG=1",
+				"YSI_IS_CLOUD=1"
+			]
+		},
+		{
+			"name": "debug_0_2_1_3",
+			"args": [
+				"-d2",
+				"-O0",
+				"-\\+",
+				"GTYPE=1",
+				"_DEBUG=1",
+				"YSI_IS_CLIENT=1"
+			]
+		},
+		{
+			"name": "debug_0_2_2_0",
+			"args": [
+				"-d2",
+				"-O0",
+				"-\\+",
+				"GTYPE=2",
+				"_DEBUG=1",
+				"YSI_NO_MASTER=1"
+			]
+		},
+		{
+			"name": "debug_0_2_2_1",
+			"args": [
+				"-d2",
+				"-O0",
+				"-\\+",
+				"GTYPE=2",
+				"_DEBUG=1",
+				"YSI_IS_SERVER=1"
+			]
+		},
+		{
+			"name": "debug_0_2_2_2",
+			"args": [
+				"-d2",
+				"-O0",
+				"-\\+",
+				"GTYPE=2",
+				"_DEBUG=1",
+				"YSI_IS_CLOUD=1"
+			]
+		},
+		{
+			"name": "debug_0_2_2_3",
+			"args": [
+				"-d2",
+				"-O0",
+				"-\\+",
+				"GTYPE=2",
+				"_DEBUG=1",
+				"YSI_IS_CLIENT=1"
+			]
+		},
+		{
+			"name": "test_0_2_0_0",
+			"args": [
+				"-d2",
+				"-O0",
+				"-\\+",
+				"GTYPE=0",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_NO_MASTER=1"
+			]
+		},
+		{
+			"name": "test_0_2_0_1",
+			"args": [
+				"-d2",
+				"-O0",
+				"-\\+",
+				"GTYPE=0",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_IS_SERVER=1"
+			]
+		},
+		{
+			"name": "test_0_2_0_2",
+			"args": [
+				"-d2",
+				"-O0",
+				"-\\+",
+				"GTYPE=0",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_IS_CLOUD=1"
+			]
+		},
+		{
+			"name": "test_0_2_0_3",
+			"args": [
+				"-d2",
+				"-O0",
+				"-\\+",
+				"GTYPE=0",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_IS_CLIENT=1"
+			]
+		},
+		{
+			"name": "test_0_2_1_0",
+			"args": [
+				"-d2",
+				"-O0",
+				"-\\+",
+				"GTYPE=1",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_NO_MASTER=1"
+			]
+		},
+		{
+			"name": "test_0_2_1_1",
+			"args": [
+				"-d2",
+				"-O0",
+				"-\\+",
+				"GTYPE=1",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_IS_SERVER=1"
+			]
+		},
+		{
+			"name": "test_0_2_1_2",
+			"args": [
+				"-d2",
+				"-O0",
+				"-\\+",
+				"GTYPE=1",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_IS_CLOUD=1"
+			]
+		},
+		{
+			"name": "test_0_2_1_3",
+			"args": [
+				"-d2",
+				"-O0",
+				"-\\+",
+				"GTYPE=1",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_IS_CLIENT=1"
+			]
+		},
+		{
+			"name": "test_0_2_2_0",
+			"args": [
+				"-d2",
+				"-O0",
+				"-\\+",
+				"GTYPE=2",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_NO_MASTER=1"
+			]
+		},
+		{
+			"name": "test_0_2_2_1",
+			"args": [
+				"-d2",
+				"-O0",
+				"-\\+",
+				"GTYPE=2",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_IS_SERVER=1"
+			]
+		},
+		{
+			"name": "test_0_2_2_2",
+			"args": [
+				"-d2",
+				"-O0",
+				"-\\+",
+				"GTYPE=2",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_IS_CLOUD=1"
+			]
+		},
+		{
+			"name": "test_0_2_2_3",
+			"args": [
+				"-d2",
+				"-O0",
+				"-\\+",
+				"GTYPE=2",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_IS_CLIENT=1"
+			]
+		},
+		{
+			"name": "debug_1_2_0_0",
+			"args": [
+				"-d2",
+				"-O1",
+				"-\\+",
+				"GTYPE=0",
+				"_DEBUG=1",
+				"YSI_NO_MASTER=1"
+			]
+		},
+		{
+			"name": "debug_1_2_0_1",
+			"args": [
+				"-d2",
+				"-O1",
+				"-\\+",
+				"GTYPE=0",
+				"_DEBUG=1",
+				"YSI_IS_SERVER=1"
+			]
+		},
+		{
+			"name": "debug_1_2_0_2",
+			"args": [
+				"-d2",
+				"-O1",
+				"-\\+",
+				"GTYPE=0",
+				"_DEBUG=1",
+				"YSI_IS_CLOUD=1"
+			]
+		},
+		{
+			"name": "debug_1_2_0_3",
+			"args": [
+				"-d2",
+				"-O1",
+				"-\\+",
+				"GTYPE=0",
+				"_DEBUG=1",
+				"YSI_IS_CLIENT=1"
+			]
+		},
+		{
+			"name": "debug_1_2_1_0",
+			"args": [
+				"-d2",
+				"-O1",
+				"-\\+",
+				"GTYPE=1",
+				"_DEBUG=1",
+				"YSI_NO_MASTER=1"
+			]
+		},
+		{
+			"name": "debug_1_2_1_1",
+			"args": [
+				"-d2",
+				"-O1",
+				"-\\+",
+				"GTYPE=1",
+				"_DEBUG=1",
+				"YSI_IS_SERVER=1"
+			]
+		},
+		{
+			"name": "debug_1_2_1_2",
+			"args": [
+				"-d2",
+				"-O1",
+				"-\\+",
+				"GTYPE=1",
+				"_DEBUG=1",
+				"YSI_IS_CLOUD=1"
+			]
+		},
+		{
+			"name": "debug_1_2_1_3",
+			"args": [
+				"-d2",
+				"-O1",
+				"-\\+",
+				"GTYPE=1",
+				"_DEBUG=1",
+				"YSI_IS_CLIENT=1"
+			]
+		},
+		{
+			"name": "debug_1_2_2_0",
+			"args": [
+				"-d2",
+				"-O1",
+				"-\\+",
+				"GTYPE=2",
+				"_DEBUG=1",
+				"YSI_NO_MASTER=1"
+			]
+		},
+		{
+			"name": "debug_1_2_2_1",
+			"args": [
+				"-d2",
+				"-O1",
+				"-\\+",
+				"GTYPE=2",
+				"_DEBUG=1",
+				"YSI_IS_SERVER=1"
+			]
+		},
+		{
+			"name": "debug_1_2_2_2",
+			"args": [
+				"-d2",
+				"-O1",
+				"-\\+",
+				"GTYPE=2",
+				"_DEBUG=1",
+				"YSI_IS_CLOUD=1"
+			]
+		},
+		{
+			"name": "debug_1_2_2_3",
+			"args": [
+				"-d2",
+				"-O1",
+				"-\\+",
+				"GTYPE=2",
+				"_DEBUG=1",
+				"YSI_IS_CLIENT=1"
+			]
+		},
+		{
+			"name": "test_1_2_0_0",
+			"args": [
+				"-d2",
+				"-O1",
+				"-\\+",
+				"GTYPE=0",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_NO_MASTER=1"
+			]
+		},
+		{
+			"name": "test_1_2_0_1",
+			"args": [
+				"-d2",
+				"-O1",
+				"-\\+",
+				"GTYPE=0",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_IS_SERVER=1"
+			]
+		},
+		{
+			"name": "test_1_2_0_2",
+			"args": [
+				"-d2",
+				"-O1",
+				"-\\+",
+				"GTYPE=0",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_IS_CLOUD=1"
+			]
+		},
+		{
+			"name": "test_1_2_0_3",
+			"args": [
+				"-d2",
+				"-O1",
+				"-\\+",
+				"GTYPE=0",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_IS_CLIENT=1"
+			]
+		},
+		{
+			"name": "test_1_2_1_0",
+			"args": [
+				"-d2",
+				"-O1",
+				"-\\+",
+				"GTYPE=1",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_NO_MASTER=1"
+			]
+		},
+		{
+			"name": "test_1_2_1_1",
+			"args": [
+				"-d2",
+				"-O1",
+				"-\\+",
+				"GTYPE=1",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_IS_SERVER=1"
+			]
+		},
+		{
+			"name": "test_1_2_1_2",
+			"args": [
+				"-d2",
+				"-O1",
+				"-\\+",
+				"GTYPE=1",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_IS_CLOUD=1"
+			]
+		},
+		{
+			"name": "test_1_2_1_3",
+			"args": [
+				"-d2",
+				"-O1",
+				"-\\+",
+				"GTYPE=1",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_IS_CLIENT=1"
+			]
+		},
+		{
+			"name": "test_1_2_2_0",
+			"args": [
+				"-d2",
+				"-O1",
+				"-\\+",
+				"GTYPE=2",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_NO_MASTER=1"
+			]
+		},
+		{
+			"name": "test_1_2_2_1",
+			"args": [
+				"-d2",
+				"-O1",
+				"-\\+",
+				"GTYPE=2",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_IS_SERVER=1"
+			]
+		},
+		{
+			"name": "test_1_2_2_2",
+			"args": [
+				"-d2",
+				"-O1",
+				"-\\+",
+				"GTYPE=2",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_IS_CLOUD=1"
+			]
+		},
+		{
+			"name": "test_1_2_2_3",
+			"args": [
+				"-d2",
+				"-O1",
+				"-\\+",
+				"GTYPE=2",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_IS_CLIENT=1"
+			]
+		},
+		{
+			"name": "debug_0_1_0_0",
+			"args": [
+				"-d1",
+				"-O0",
+				"-\\+",
+				"GTYPE=0",
+				"_DEBUG=1",
+				"YSI_NO_MASTER=1"
+			]
+		},
+		{
+			"name": "debug_0_1_0_1",
+			"args": [
+				"-d1",
+				"-O0",
+				"-\\+",
+				"GTYPE=0",
+				"_DEBUG=1",
+				"YSI_IS_SERVER=1"
+			]
+		},
+		{
+			"name": "debug_0_1_0_2",
+			"args": [
+				"-d1",
+				"-O0",
+				"-\\+",
+				"GTYPE=0",
+				"_DEBUG=1",
+				"YSI_IS_CLOUD=1"
+			]
+		},
+		{
+			"name": "debug_0_1_0_3",
+			"args": [
+				"-d1",
+				"-O0",
+				"-\\+",
+				"GTYPE=0",
+				"_DEBUG=1",
+				"YSI_IS_CLIENT=1"
+			]
+		},
+		{
+			"name": "debug_0_1_1_0",
+			"args": [
+				"-d1",
+				"-O0",
+				"-\\+",
+				"GTYPE=1",
+				"_DEBUG=1",
+				"YSI_NO_MASTER=1"
+			]
+		},
+		{
+			"name": "debug_0_1_1_1",
+			"args": [
+				"-d1",
+				"-O0",
+				"-\\+",
+				"GTYPE=1",
+				"_DEBUG=1",
+				"YSI_IS_SERVER=1"
+			]
+		},
+		{
+			"name": "debug_0_1_1_2",
+			"args": [
+				"-d1",
+				"-O0",
+				"-\\+",
+				"GTYPE=1",
+				"_DEBUG=1",
+				"YSI_IS_CLOUD=1"
+			]
+		},
+		{
+			"name": "debug_0_1_1_3",
+			"args": [
+				"-d1",
+				"-O0",
+				"-\\+",
+				"GTYPE=1",
+				"_DEBUG=1",
+				"YSI_IS_CLIENT=1"
+			]
+		},
+		{
+			"name": "debug_0_1_2_0",
+			"args": [
+				"-d1",
+				"-O0",
+				"-\\+",
+				"GTYPE=2",
+				"_DEBUG=1",
+				"YSI_NO_MASTER=1"
+			]
+		},
+		{
+			"name": "debug_0_1_2_1",
+			"args": [
+				"-d1",
+				"-O0",
+				"-\\+",
+				"GTYPE=2",
+				"_DEBUG=1",
+				"YSI_IS_SERVER=1"
+			]
+		},
+		{
+			"name": "debug_0_1_2_2",
+			"args": [
+				"-d1",
+				"-O0",
+				"-\\+",
+				"GTYPE=2",
+				"_DEBUG=1",
+				"YSI_IS_CLOUD=1"
+			]
+		},
+		{
+			"name": "debug_0_1_2_3",
+			"args": [
+				"-d1",
+				"-O0",
+				"-\\+",
+				"GTYPE=2",
+				"_DEBUG=1",
+				"YSI_IS_CLIENT=1"
+			]
+		},
+		{
+			"name": "test_0_1_0_0",
+			"args": [
+				"-d1",
+				"-O0",
+				"-\\+",
+				"GTYPE=0",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_NO_MASTER=1"
+			]
+		},
+		{
+			"name": "test_0_1_0_1",
+			"args": [
+				"-d1",
+				"-O0",
+				"-\\+",
+				"GTYPE=0",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_IS_SERVER=1"
+			]
+		},
+		{
+			"name": "test_0_1_0_2",
+			"args": [
+				"-d1",
+				"-O0",
+				"-\\+",
+				"GTYPE=0",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_IS_CLOUD=1"
+			]
+		},
+		{
+			"name": "test_0_1_0_3",
+			"args": [
+				"-d1",
+				"-O0",
+				"-\\+",
+				"GTYPE=0",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_IS_CLIENT=1"
+			]
+		},
+		{
+			"name": "test_0_1_1_0",
+			"args": [
+				"-d1",
+				"-O0",
+				"-\\+",
+				"GTYPE=1",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_NO_MASTER=1"
+			]
+		},
+		{
+			"name": "test_0_1_1_1",
+			"args": [
+				"-d1",
+				"-O0",
+				"-\\+",
+				"GTYPE=1",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_IS_SERVER=1"
+			]
+		},
+		{
+			"name": "test_0_1_1_2",
+			"args": [
+				"-d1",
+				"-O0",
+				"-\\+",
+				"GTYPE=1",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_IS_CLOUD=1"
+			]
+		},
+		{
+			"name": "test_0_1_1_3",
+			"args": [
+				"-d1",
+				"-O0",
+				"-\\+",
+				"GTYPE=1",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_IS_CLIENT=1"
+			]
+		},
+		{
+			"name": "test_0_1_2_0",
+			"args": [
+				"-d1",
+				"-O0",
+				"-\\+",
+				"GTYPE=2",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_NO_MASTER=1"
+			]
+		},
+		{
+			"name": "test_0_1_2_1",
+			"args": [
+				"-d1",
+				"-O0",
+				"-\\+",
+				"GTYPE=2",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_IS_SERVER=1"
+			]
+		},
+		{
+			"name": "test_0_1_2_2",
+			"args": [
+				"-d1",
+				"-O0",
+				"-\\+",
+				"GTYPE=2",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_IS_CLOUD=1"
+			]
+		},
+		{
+			"name": "test_0_1_2_3",
+			"args": [
+				"-d1",
+				"-O0",
+				"-\\+",
+				"GTYPE=2",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_IS_CLIENT=1"
+			]
+		},
+		{
+			"name": "debug_0_0_0_0",
+			"args": [
+				"-d0",
+				"-O0",
+				"-\\+",
+				"GTYPE=0",
+				"_DEBUG=1",
+				"YSI_NO_MASTER=1"
+			]
+		},
+		{
+			"name": "debug_0_0_0_1",
+			"args": [
+				"-d0",
+				"-O0",
+				"-\\+",
+				"GTYPE=0",
+				"_DEBUG=1",
+				"YSI_IS_SERVER=1"
+			]
+		},
+		{
+			"name": "debug_0_0_0_2",
+			"args": [
+				"-d0",
+				"-O0",
+				"-\\+",
+				"GTYPE=0",
+				"_DEBUG=1",
+				"YSI_IS_CLOUD=1"
+			]
+		},
+		{
+			"name": "debug_0_0_0_3",
+			"args": [
+				"-d0",
+				"-O0",
+				"-\\+",
+				"GTYPE=0",
+				"_DEBUG=1",
+				"YSI_IS_CLIENT=1"
+			]
+		},
+		{
+			"name": "debug_0_0_1_0",
+			"args": [
+				"-d0",
+				"-O0",
+				"-\\+",
+				"GTYPE=1",
+				"_DEBUG=1",
+				"YSI_NO_MASTER=1"
+			]
+		},
+		{
+			"name": "debug_0_0_1_1",
+			"args": [
+				"-d0",
+				"-O0",
+				"-\\+",
+				"GTYPE=1",
+				"_DEBUG=1",
+				"YSI_IS_SERVER=1"
+			]
+		},
+		{
+			"name": "debug_0_0_1_2",
+			"args": [
+				"-d0",
+				"-O0",
+				"-\\+",
+				"GTYPE=1",
+				"_DEBUG=1",
+				"YSI_IS_CLOUD=1"
+			]
+		},
+		{
+			"name": "debug_0_0_1_3",
+			"args": [
+				"-d0",
+				"-O0",
+				"-\\+",
+				"GTYPE=1",
+				"_DEBUG=1",
+				"YSI_IS_CLIENT=1"
+			]
+		},
+		{
+			"name": "debug_0_0_2_0",
+			"args": [
+				"-d0",
+				"-O0",
+				"-\\+",
+				"GTYPE=2",
+				"_DEBUG=1",
+				"YSI_NO_MASTER=1"
+			]
+		},
+		{
+			"name": "debug_0_0_2_1",
+			"args": [
+				"-d0",
+				"-O0",
+				"-\\+",
+				"GTYPE=2",
+				"_DEBUG=1",
+				"YSI_IS_SERVER=1"
+			]
+		},
+		{
+			"name": "debug_0_0_2_2",
+			"args": [
+				"-d0",
+				"-O0",
+				"-\\+",
+				"GTYPE=2",
+				"_DEBUG=1",
+				"YSI_IS_CLOUD=1"
+			]
+		},
+		{
+			"name": "debug_0_0_2_3",
+			"args": [
+				"-d0",
+				"-O0",
+				"-\\+",
+				"GTYPE=2",
+				"_DEBUG=1",
+				"YSI_IS_CLIENT=1"
+			]
+		},
+		{
+			"name": "test_0_0_0_0",
+			"args": [
+				"-d0",
+				"-O0",
+				"-\\+",
+				"GTYPE=0",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_NO_MASTER=1"
+			]
+		},
+		{
+			"name": "test_0_0_0_1",
+			"args": [
+				"-d0",
+				"-O0",
+				"-\\+",
+				"GTYPE=0",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_IS_SERVER=1"
+			]
+		},
+		{
+			"name": "test_0_0_0_2",
+			"args": [
+				"-d0",
+				"-O0",
+				"-\\+",
+				"GTYPE=0",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_IS_CLOUD=1"
+			]
+		},
+		{
+			"name": "test_0_0_0_3",
+			"args": [
+				"-d0",
+				"-O0",
+				"-\\+",
+				"GTYPE=0",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_IS_CLIENT=1"
+			]
+		},
+		{
+			"name": "test_0_0_1_0",
+			"args": [
+				"-d0",
+				"-O0",
+				"-\\+",
+				"GTYPE=1",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_NO_MASTER=1"
+			]
+		},
+		{
+			"name": "test_0_0_1_1",
+			"args": [
+				"-d0",
+				"-O0",
+				"-\\+",
+				"GTYPE=1",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_IS_SERVER=1"
+			]
+		},
+		{
+			"name": "test_0_0_1_2",
+			"args": [
+				"-d0",
+				"-O0",
+				"-\\+",
+				"GTYPE=1",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_IS_CLOUD=1"
+			]
+		},
+		{
+			"name": "test_0_0_1_3",
+			"args": [
+				"-d0",
+				"-O0",
+				"-\\+",
+				"GTYPE=1",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_IS_CLIENT=1"
+			]
+		},
+		{
+			"name": "test_0_0_2_0",
+			"args": [
+				"-d0",
+				"-O0",
+				"-\\+",
+				"GTYPE=2",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_NO_MASTER=1"
+			]
+		},
+		{
+			"name": "test_0_0_2_1",
+			"args": [
+				"-d0",
+				"-O0",
+				"-\\+",
+				"GTYPE=2",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_IS_SERVER=1"
+			]
+		},
+		{
+			"name": "test_0_0_2_2",
+			"args": [
+				"-d0",
+				"-O0",
+				"-\\+",
+				"GTYPE=2",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_IS_CLOUD=1"
+			]
+		},
+		{
+			"name": "test_0_0_2_3",
+			"args": [
+				"-d0",
+				"-O0",
+				"-\\+",
+				"GTYPE=2",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_IS_CLIENT=1"
+			]
+		},
+		{
+			"name": "debug_1_1_0_0",
+			"args": [
+				"-d1",
+				"-O1",
+				"-\\+",
+				"GTYPE=0",
+				"_DEBUG=1",
+				"YSI_NO_MASTER=1"
+			]
+		},
+		{
+			"name": "debug_1_1_0_1",
+			"args": [
+				"-d1",
+				"-O1",
+				"-\\+",
+				"GTYPE=0",
+				"_DEBUG=1",
+				"YSI_IS_SERVER=1"
+			]
+		},
+		{
+			"name": "debug_1_1_0_2",
+			"args": [
+				"-d1",
+				"-O1",
+				"-\\+",
+				"GTYPE=0",
+				"_DEBUG=1",
+				"YSI_IS_CLOUD=1"
+			]
+		},
+		{
+			"name": "debug_1_1_0_3",
+			"args": [
+				"-d1",
+				"-O1",
+				"-\\+",
+				"GTYPE=0",
+				"_DEBUG=1",
+				"YSI_IS_CLIENT=1"
+			]
+		},
+		{
+			"name": "debug_1_1_1_0",
+			"args": [
+				"-d1",
+				"-O1",
+				"-\\+",
+				"GTYPE=1",
+				"_DEBUG=1",
+				"YSI_NO_MASTER=1"
+			]
+		},
+		{
+			"name": "debug_1_1_1_1",
+			"args": [
+				"-d1",
+				"-O1",
+				"-\\+",
+				"GTYPE=1",
+				"_DEBUG=1",
+				"YSI_IS_SERVER=1"
+			]
+		},
+		{
+			"name": "debug_1_1_1_2",
+			"args": [
+				"-d1",
+				"-O1",
+				"-\\+",
+				"GTYPE=1",
+				"_DEBUG=1",
+				"YSI_IS_CLOUD=1"
+			]
+		},
+		{
+			"name": "debug_1_1_1_3",
+			"args": [
+				"-d1",
+				"-O1",
+				"-\\+",
+				"GTYPE=1",
+				"_DEBUG=1",
+				"YSI_IS_CLIENT=1"
+			]
+		},
+		{
+			"name": "debug_1_1_2_0",
+			"args": [
+				"-d1",
+				"-O1",
+				"-\\+",
+				"GTYPE=2",
+				"_DEBUG=1",
+				"YSI_NO_MASTER=1"
+			]
+		},
+		{
+			"name": "debug_1_1_2_1",
+			"args": [
+				"-d1",
+				"-O1",
+				"-\\+",
+				"GTYPE=2",
+				"_DEBUG=1",
+				"YSI_IS_SERVER=1"
+			]
+		},
+		{
+			"name": "debug_1_1_2_2",
+			"args": [
+				"-d1",
+				"-O1",
+				"-\\+",
+				"GTYPE=2",
+				"_DEBUG=1",
+				"YSI_IS_CLOUD=1"
+			]
+		},
+		{
+			"name": "debug_1_1_2_3",
+			"args": [
+				"-d1",
+				"-O1",
+				"-\\+",
+				"GTYPE=2",
+				"_DEBUG=1",
+				"YSI_IS_CLIENT=1"
+			]
+		},
+		{
+			"name": "test_1_1_0_0",
+			"args": [
+				"-d1",
+				"-O1",
+				"-\\+",
+				"GTYPE=0",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_NO_MASTER=1"
+			]
+		},
+		{
+			"name": "test_1_1_0_1",
+			"args": [
+				"-d1",
+				"-O1",
+				"-\\+",
+				"GTYPE=0",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_IS_SERVER=1"
+			]
+		},
+		{
+			"name": "test_1_1_0_2",
+			"args": [
+				"-d1",
+				"-O1",
+				"-\\+",
+				"GTYPE=0",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_IS_CLOUD=1"
+			]
+		},
+		{
+			"name": "test_1_1_0_3",
+			"args": [
+				"-d1",
+				"-O1",
+				"-\\+",
+				"GTYPE=0",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_IS_CLIENT=1"
+			]
+		},
+		{
+			"name": "test_1_1_1_0",
+			"args": [
+				"-d1",
+				"-O1",
+				"-\\+",
+				"GTYPE=1",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_NO_MASTER=1"
+			]
+		},
+		{
+			"name": "test_1_1_1_1",
+			"args": [
+				"-d1",
+				"-O1",
+				"-\\+",
+				"GTYPE=1",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_IS_SERVER=1"
+			]
+		},
+		{
+			"name": "test_1_1_1_2",
+			"args": [
+				"-d1",
+				"-O1",
+				"-\\+",
+				"GTYPE=1",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_IS_CLOUD=1"
+			]
+		},
+		{
+			"name": "test_1_1_1_3",
+			"args": [
+				"-d1",
+				"-O1",
+				"-\\+",
+				"GTYPE=1",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_IS_CLIENT=1"
+			]
+		},
+		{
+			"name": "test_1_1_2_0",
+			"args": [
+				"-d1",
+				"-O1",
+				"-\\+",
+				"GTYPE=2",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_NO_MASTER=1"
+			]
+		},
+		{
+			"name": "test_1_1_2_1",
+			"args": [
+				"-d1",
+				"-O1",
+				"-\\+",
+				"GTYPE=2",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_IS_SERVER=1"
+			]
+		},
+		{
+			"name": "test_1_1_2_2",
+			"args": [
+				"-d1",
+				"-O1",
+				"-\\+",
+				"GTYPE=2",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_IS_CLOUD=1"
+			]
+		},
+		{
+			"name": "test_1_1_2_3",
+			"args": [
+				"-d1",
+				"-O1",
+				"-\\+",
+				"GTYPE=2",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_IS_CLIENT=1"
+			]
+		},
+		{
+			"name": "debug_1_0_0_0",
+			"args": [
+				"-d0",
+				"-O1",
+				"-\\+",
+				"GTYPE=0",
+				"_DEBUG=1",
+				"YSI_NO_MASTER=1"
+			]
+		},
+		{
+			"name": "debug_1_0_0_1",
+			"args": [
+				"-d0",
+				"-O1",
+				"-\\+",
+				"GTYPE=0",
+				"_DEBUG=1",
+				"YSI_IS_SERVER=1"
+			]
+		},
+		{
+			"name": "debug_1_0_0_2",
+			"args": [
+				"-d0",
+				"-O1",
+				"-\\+",
+				"GTYPE=0",
+				"_DEBUG=1",
+				"YSI_IS_CLOUD=1"
+			]
+		},
+		{
+			"name": "debug_1_0_0_3",
+			"args": [
+				"-d0",
+				"-O1",
+				"-\\+",
+				"GTYPE=0",
+				"_DEBUG=1",
+				"YSI_IS_CLIENT=1"
+			]
+		},
+		{
+			"name": "debug_1_0_1_0",
+			"args": [
+				"-d0",
+				"-O1",
+				"-\\+",
+				"GTYPE=1",
+				"_DEBUG=1",
+				"YSI_NO_MASTER=1"
+			]
+		},
+		{
+			"name": "debug_1_0_1_1",
+			"args": [
+				"-d0",
+				"-O1",
+				"-\\+",
+				"GTYPE=1",
+				"_DEBUG=1",
+				"YSI_IS_SERVER=1"
+			]
+		},
+		{
+			"name": "debug_1_0_1_2",
+			"args": [
+				"-d0",
+				"-O1",
+				"-\\+",
+				"GTYPE=1",
+				"_DEBUG=1",
+				"YSI_IS_CLOUD=1"
+			]
+		},
+		{
+			"name": "debug_1_0_1_3",
+			"args": [
+				"-d0",
+				"-O1",
+				"-\\+",
+				"GTYPE=1",
+				"_DEBUG=1",
+				"YSI_IS_CLIENT=1"
+			]
+		},
+		{
+			"name": "debug_1_0_2_0",
+			"args": [
+				"-d0",
+				"-O1",
+				"-\\+",
+				"GTYPE=2",
+				"_DEBUG=1",
+				"YSI_NO_MASTER=1"
+			]
+		},
+		{
+			"name": "debug_1_0_2_1",
+			"args": [
+				"-d0",
+				"-O1",
+				"-\\+",
+				"GTYPE=2",
+				"_DEBUG=1",
+				"YSI_IS_SERVER=1"
+			]
+		},
+		{
+			"name": "debug_1_0_2_2",
+			"args": [
+				"-d0",
+				"-O1",
+				"-\\+",
+				"GTYPE=2",
+				"_DEBUG=1",
+				"YSI_IS_CLOUD=1"
+			]
+		},
+		{
+			"name": "debug_1_0_2_3",
+			"args": [
+				"-d0",
+				"-O1",
+				"-\\+",
+				"GTYPE=2",
+				"_DEBUG=1",
+				"YSI_IS_CLIENT=1"
+			]
+		},
+		{
+			"name": "test_1_0_0_0",
+			"args": [
+				"-d0",
+				"-O1",
+				"-\\+",
+				"GTYPE=0",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_NO_MASTER=1"
+			]
+		},
+		{
+			"name": "test_1_0_0_1",
+			"args": [
+				"-d0",
+				"-O1",
+				"-\\+",
+				"GTYPE=0",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_IS_SERVER=1"
+			]
+		},
+		{
+			"name": "test_1_0_0_2",
+			"args": [
+				"-d0",
+				"-O1",
+				"-\\+",
+				"GTYPE=0",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_IS_CLOUD=1"
+			]
+		},
+		{
+			"name": "test_1_0_0_3",
+			"args": [
+				"-d0",
+				"-O1",
+				"-\\+",
+				"GTYPE=0",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_IS_CLIENT=1"
+			]
+		},
+		{
+			"name": "test_1_0_1_0",
+			"args": [
+				"-d0",
+				"-O1",
+				"-\\+",
+				"GTYPE=1",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_NO_MASTER=1"
+			]
+		},
+		{
+			"name": "test_1_0_1_1",
+			"args": [
+				"-d0",
+				"-O1",
+				"-\\+",
+				"GTYPE=1",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_IS_SERVER=1"
+			]
+		},
+		{
+			"name": "test_1_0_1_2",
+			"args": [
+				"-d0",
+				"-O1",
+				"-\\+",
+				"GTYPE=1",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_IS_CLOUD=1"
+			]
+		},
+		{
+			"name": "test_1_0_1_3",
+			"args": [
+				"-d0",
+				"-O1",
+				"-\\+",
+				"GTYPE=1",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_IS_CLIENT=1"
+			]
+		},
+		{
+			"name": "test_1_0_2_0",
+			"args": [
+				"-d0",
+				"-O1",
+				"-\\+",
+				"GTYPE=2",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_NO_MASTER=1"
+			]
+		},
+		{
+			"name": "test_1_0_2_1",
+			"args": [
+				"-d0",
+				"-O1",
+				"-\\+",
+				"GTYPE=2",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_IS_SERVER=1"
+			]
+		},
+		{
+			"name": "test_1_0_2_2",
+			"args": [
+				"-d0",
+				"-O1",
+				"-\\+",
+				"GTYPE=2",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_IS_CLOUD=1"
+			]
+		},
+		{
+			"name": "test_1_0_2_3",
+			"args": [
+				"-d0",
+				"-O1",
+				"-\\+",
+				"GTYPE=2",
+				"LIGHT_TEST_REPORT=1",
+				"_YSI_NO_TEST_VERIFICATION=1",
+				"YSI_IS_CLIENT=1"
+			]
+		}
 	],
 	"runtime": {
+		"name": "server",
 		"version": "0.3.7",
-		"mode": "y_testing",
+		"mode": "server",
 		"echo": "-",
-		"rcon_password": "password",
 		"port": 7777,
-		"hostname": "SA-MP Server",
 		"maxplayers": 50,
 		"language": "",
-		"mapname": "San Andreas",
-		"weburl": "www.sa-mp.com",
-		"gamemodetext": "Unknown",
-		"announce": true,
-		"lanmode": false,
-		"query": true,
-		"rcon": false,
-		"logqueries": false,
-		"sleep": 5,
-		"maxnpc": 0,
-		"stream_rate": 1000,
-		"stream_distance": 200,
-		"onfoot_rate": 30,
-		"incar_rate": 30,
-		"weapon_rate": 30,
-		"chatlogging": true,
-		"timestamp": true,
-		"messageholelimit": 3000,
-		"messageslimit": 500,
-		"ackslimit": 3000,
-		"playertimeout": 10000,
-		"minconnectiontime": 0,
-		"lagcompmode": 1,
-		"connseedtime": 300000,
-		"db_logging": false,
-		"db_log_queries": false,
-		"conncookies": true,
-		"cookielogging": false,
-		"output": true
-	}
+		"weburl": "www.y-less.com",
+		"rcon_password": "YSI-Core/y_master",
+		"hostname": "YSI-Core/y_master Test Mode",
+		"mapname": "YSI-Core/y_master Test Mode",
+		"gamemodetext": "YSI-Core/y_master Test Mode"
+	},
+	"runtimes": [
+		{
+			"name": "y_testing",
+			"version": "0.3.7",
+			"mode": "y_testing",
+			"echo": "-",
+			"port": 7777,
+			"maxplayers": 50,
+			"language": "",
+			"weburl": "www.y-less.com",
+			"rcon_password": "YSI-Core/y_master",
+			"hostname": "YSI-Core/y_master Test Mode",
+			"mapname": "YSI-Core/y_master Test Mode",
+			"gamemodetext": "YSI-Core/y_master Test Mode"
+		}
+	]
 }
