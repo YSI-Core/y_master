@@ -7,11 +7,6 @@
 		"YSI-Core/y_utils",
 		"YSI-Coding/y_hooks"
 	],
-	"dev_dependencies": [
-		"YSI-Core/y_testing",
-		"sampctl/samp-stdlib",
-		"YSI-Players/y_groups"
-	],
 	"builds": [
 		{
 			"name": "debug_0_2_0_0",
@@ -1669,21 +1664,7 @@
 				"YSI_IS_CLIENT=1"
 			]
 		}
-	],
-	"runtime": {
-		"name": "server",
-		"version": "0.3.7",
-		"mode": "server",
-		"echo": "-",
-		"port": 7777,
-		"maxplayers": 50,
-		"language": "",
-		"weburl": "www.y-less.com",
-		"rcon_password": "YSI-Core/y_master",
-		"hostname": "YSI-Core/y_master Test Mode",
-		"mapname": "YSI-Core/y_master Test Mode",
-		"gamemodetext": "YSI-Core/y_master Test Mode"
-	},
+	],,
 	"runtimes": [
 		{
 			"name": "y_testing",
